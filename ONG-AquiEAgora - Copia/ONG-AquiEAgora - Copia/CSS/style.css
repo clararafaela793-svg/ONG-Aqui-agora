@@ -1,0 +1,232 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-width: 1100px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f7fa;
+    color: #000000;
+    line-height: 1.5;
+}
+
+header {
+    background-color: #0095c7;
+    color: rgb(252, 252, 252);
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
+header h1 {
+    margin: 15px 0 5px;
+}
+
+header p {
+    margin: 0;
+}
+
+nav {
+    background-color: #013244;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav li {
+    padding: 15px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 1100px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #164f63;
+}
+
+h3 {
+    color: #164f63;
+}
+
+main img {
+    height: auto;
+    border-radius: 8px;
+}
+
+ul {
+    line-height: 1.8;
+}
+
+form {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    color: #1f6f8b;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 500px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #164f63;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer section {
+    width: 1050px;
+    margin: 0 auto 25px;
+    background-color: transparent;
+}
+
+footer h2 {
+    color: white;
+}
+
+footer address {
+    font-style: normal;
+}
+
+footer nav {
+    background-color: transparent;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.valores {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.valores h2 {
+    flex: 0 0 100%;
+}
+
+.valor {
+    flex: 0 0 237.5px;
+    padding: 20px;
+    background-color: #f5f7fa;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.valor h3 {
+    margin-top: 0;
+}
+
+.conquistas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.conquistas h2 {
+    flex: 0 0 100%;
+}
+
+.conquista {
+    flex: 0 0 237.5px;
+    padding: 25px;
+    background-color: #0b394a;
+    color: white;
+    border-radius: 10px;
+}
+
+.conquista strong {
+    display: block;
+    font-size: 36px;
+}
+
+.conquista p {
+    margin-bottom: 0;
+}
+
+.equipe {
+    text-align: center;
+}
+
+.equipe figure {
+    margin: 0 auto 25px;
+}
+
+.equipe figure img {
+    width: 600px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.equipe article {
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    margin: 10px;
+}
